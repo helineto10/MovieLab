@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2.8rem;
+  padding: 1rem 1rem;
   background-color: #121212;
 }
 
@@ -43,4 +43,15 @@
 
 #navbar form button:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 375px) {
+  #navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #121212;
+  }
 }
