@@ -25,7 +25,7 @@
 }
 
 #navbar input::placeholder {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 #navbar form button {
@@ -46,12 +46,41 @@
 }
 
 @media (max-width: 375px) {
+
   #navbar {
-    width: 100%;
+    gap: 0.6rem
+  }
+
+  #navbar h2 a {
     display: flex;
-    justify-content: space-between;
+    font-size: .9em;
+    gap: 0.5rem;
+  }
+
+  #navbar input {
+    padding: 0.2rem .3rem;
+    border-radius: 4px;
+    border: none;
+  }
+
+  #navbar input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  #navbar form button {
+    background-color: #f7d354;
+    border: 2px solid #f7d354;
+    border-radius: 4px;
+    color: #000;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    display: flex;
     align-items: center;
-    padding: 1rem 1rem;
-    background-color: #121212;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  #navbar form button:hover {
+    opacity: 0.5;
   }
 }
