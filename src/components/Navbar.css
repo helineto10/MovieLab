@@ -45,7 +45,7 @@
   opacity: 0.5;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
   #navbar {
     gap: 0.6rem
